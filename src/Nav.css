@@ -1,0 +1,13 @@
+.navLinks {
+    margin-right: 10%;
+    margin-left: auto;
+}
+
+.navLogo {
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.activeLink {
+    font-weight: bold;
+}
