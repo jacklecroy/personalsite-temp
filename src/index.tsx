@@ -1,12 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './css/Index.css';
+import About from  './pages/About';
+import Home from './pages/Home';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div>
+      <Router>
+      <div className='siteSubtitle'>THE AMAZING WEBSITE OF</div>
+        <div className='siteTitle'><Link to='/'>JACK LECROY</Link></div>
+        <Route exact path="/" component={Home}></Route>
+        <Route exact path="/About" component={About}></Route>
+      </Router>
+      <div className='copyrightSection'>© 2021 Jack LeCroy</div>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,43 @@
+.jobContainer {
+    margin-top: 10%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.jobRow {
+    font-family: 'Playfair Display', serif;
+    outline-style: solid;
+    outline-color: #3d5a80;
+    background-color: #e0fbfc;
+    outline-width: 1px;
+    margin: 10px;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jobDetails {
+    margin: none;
+}
+
+/* company */
+.jobRow h1 {
+    font-weight: 600;
+    color: #293241;
+    font-size: 1.5em;
+    line-height: 0.5em;
+}
+/* title */
+.jobRow h2 {
+    font-weight: 300;
+    font-size: 1em;
+}
+/* date */
+.jobRow h3 {
+    color: #3d5a80;
+    font-weight: 300;
+    font-size: 1em;
+}
